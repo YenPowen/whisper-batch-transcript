@@ -28,8 +28,13 @@ Windows 桌面程序，Python + tkinter 写的，**开箱即用的 exe 在 [Rele
 ├── _internal/          ← 运行时依赖，删了就打不开
 ├── ffmpeg.exe
 ├── ffprobe.exe
-└── models/             ← 模型目录，首次使用可让程序自动下载
+└── models/
+    └── ct-punc/        ← 标点模型，已随包提供（283 MB）
 ```
+
+包里**已经带了标点模型 `ct-punc`**（278 MB 的 `model.pt`），开箱就能补句读，不用联网下载。
+
+Whisper 语音模型（默认 large-v3-turbo，1.6 GB）没有打进包——太大，而且多数人只用得到其中一档。第一次转写时程序会自动下到 `models\`，支持断点续传和多镜像；已有模型就直接放进 `models\`。
 
 > 日志写在 `%USERPROFILE%\whisper_v6.log`，出问题时先看这里。
 
