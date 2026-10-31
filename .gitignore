@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 打包产物
+build/
+dist/
+*.spec.bak
+
+# 模型与媒体
+models/
+*.pt
+*.onnx
+*.wav
+*.mp4
+*.mp3
+*.xlsx
+
+# 系统
+.DS_Store
+Thumbs.db

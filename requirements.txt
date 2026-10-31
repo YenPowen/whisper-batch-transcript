@@ -1,0 +1,9 @@
+# v6 重构后的依赖清单。
+# torch 请按自己的 CUDA/CPU 环境安装；本文件只保证核心依赖可导入。
+openai-whisper>=20250625
+opencc>=1.1.7
+pandas>=2.0
+openpyxl>=3.1
+requests>=2.31
+modelscope>=1.11
+funasr>=1.1.0

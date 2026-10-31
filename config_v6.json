@@ -1,0 +1,16 @@
+{
+  "model_size": "large-v3-turbo",
+  "language": "zh",
+  "gpu_fp16": false,
+  "t2s": true,
+  "punctuation": true,
+  "out_txt": true,
+  "out_srt": true,
+  "out_json": true,
+  "initial_prompt": "",
+  "temperature": 0.0,
+  "skip_existing": true,
+  "workers": 1,
+  "window_size": "1000x820",
+  "version": 2
+}
